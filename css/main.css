@@ -28,8 +28,22 @@ section {
   background-color: #e5c30a;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 45em;
+}
+
 .section-body {
     text-align: left;
+}
+
+.section-letter, .section-icon {
+  width: 50%;
+  text-align: center;
 }
 
 .img-flex {
@@ -46,6 +60,7 @@ p {
   padding: 1.3rem;
   margin: 0 auto;
 }
+
 
 @media only screen and (min-width: 25em) {
 

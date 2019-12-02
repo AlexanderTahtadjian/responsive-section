@@ -39,6 +39,7 @@ section {
 
 .section-body {
     text-align: left;
+    padding: 1.3rem;
 }
 
 .section-letter, .section-icon {
@@ -54,11 +55,9 @@ section {
 
 h1 {
   margin: 0;
-  padding: 1rem;
 }
 
 p {
-  padding: 1.3rem;
   margin: 0 auto;
 }
 

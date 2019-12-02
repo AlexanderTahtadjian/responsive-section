@@ -41,7 +41,12 @@ section {
   text-align: left;
 }
 
-.section-letter, .section-icon {
+.section-letter {
+  width: 50%;
+  text-align: center;
+}
+
+.section-icon {
   width: 50%;
   text-align: center;
 }
@@ -51,12 +56,12 @@ section {
   display: block;
 }
 
-h2 {
+section h2 {
   font-size: 1.5rem;
   margin: 0;
 }
 
-p {
+section p {
   margin: 0 auto;
 }
 

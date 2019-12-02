@@ -24,7 +24,6 @@ body {
 section {
   font-family: "Noto Sans", sans-serif;
   font-weight: normal;
-  font-size: 1.5rem;
   background-color: #e5c30a;
 }
 
@@ -33,27 +32,28 @@ section {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1.3rem;
   margin: 0 auto;
   max-width: 45em;
 }
 
 .section-body {
     text-align: left;
-    padding: 1.3rem;
 }
 
 .section-letter, .section-icon {
   width: 50%;
   text-align: center;
+  /* padding: 1rem; */
 }
 
 .img-flex {
-  width: 75%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  display: block;
 }
 
 h1 {
+  font-size: 1.5rem;
   margin: 0;
 }
 

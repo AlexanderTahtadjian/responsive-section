@@ -87,6 +87,13 @@ p {
     font-size: 1.4rem;
   }
 
+  .img-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {

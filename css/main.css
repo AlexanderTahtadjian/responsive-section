@@ -44,7 +44,6 @@ section {
 .section-letter, .section-icon {
   width: 50%;
   text-align: center;
-  /* padding: 1rem; */
 }
 
 .img-flex {
@@ -73,6 +72,11 @@ p {
     font-size: 1.3rem;
   }
 
+  .section-letter, .section-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -86,17 +90,12 @@ p {
     font-size: 1.4rem;
   }
 
-  .img-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+  .wrapper {
+    flex-wrap: nowrap;
   }
 
-  .img-flex {
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
+  .section-icon {
+      order: 100;
   }
 
 }

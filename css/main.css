@@ -47,6 +47,7 @@ section {
 }
 
 .img-flex {
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
 }
